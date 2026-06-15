@@ -4,7 +4,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public final class ArrowAPIProvider {
-
     private static volatile ArrowAPI instance;
 
     private ArrowAPIProvider() {
@@ -25,7 +24,7 @@ public final class ArrowAPIProvider {
     public static @NotNull ArrowAPI require() {
         ArrowAPI api = instance;
         if (api == null) {
-            throw new IllegalStateException("ArrowAPI is not available on this server.");
+            throw new IllegalStateException("ArrowAPI is not available.");
         }
         return api;
     }
