@@ -1,4 +1,4 @@
-package me.arrowapi.API;
+package me.stel.API;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

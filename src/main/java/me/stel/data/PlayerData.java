@@ -1,4 +1,4 @@
-package me.arrowapi.data;
+package me.stel.data;
 
 public interface PlayerData {
 

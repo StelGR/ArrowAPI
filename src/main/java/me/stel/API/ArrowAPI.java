@@ -1,6 +1,6 @@
-package me.arrowapi.API;
+package me.stel.API;
 
-import me.arrowapi.data.PlayerData;
+import me.stel.data.PlayerData;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
