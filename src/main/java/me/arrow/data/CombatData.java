@@ -1,4 +1,8 @@
 package me.arrow.data;
 
-public class CombatData {
+public interface CombatData {
+
+    double getCurrentCps();
+
+    double getAverageCps();
 }
