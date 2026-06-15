@@ -1,4 +1,4 @@
-package me.arrow.data;
+package me.arrowapi.data;
 
 public interface CombatData {
 

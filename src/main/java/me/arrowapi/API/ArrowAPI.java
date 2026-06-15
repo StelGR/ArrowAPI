@@ -1,6 +1,6 @@
-package me.arrow.API;
+package me.arrowapi.API;
 
-import me.arrow.data.PlayerData;
+import me.arrowapi.data.PlayerData;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
